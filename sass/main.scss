@@ -1,23 +1,15 @@
 @charset "UTF-8";
-
-// 1. Vendors
-@use 'vendors/normalize';
-
 // 2. Base stuff
-@use 'base/base';
-@use 'base/fonts';
-@use 'base/helpers';
-@use 'base/typography';
+@use "base/base";
+@use "base/fonts";
+@use "base/helpers";
+@use "base/typography";
 
 // 3. Layout-related sections
-@use 'layout/footer';
-@use 'layout/header';
+@use "layout/footer";
 
 // 4. Components
-@use 'components/button';
+@use "components/button";
 
 // 5. Pages
-@use 'pages/home';
-
-// 6. Themes
-@use 'themes/default';
+@use "pages/inscricao";
