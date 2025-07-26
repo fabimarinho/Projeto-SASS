@@ -1,9 +1,10 @@
-/* Error: expected ";".
- *    ,
- * 12 | @use "components/button", "components/caixa";
- *    |                         ^
- *    '
- *   sass\main.scss 12:25  root stylesheet */
+/* Error: Undefined variable.
+ *   ,
+ * 9 |   color: $cor-preta;
+ *   |          ^^^^^^^^^^
+ *   '
+ *   sass\base\_typography.scss 9:10  @use
+ *   sass\main.scss 6:1               root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 12 \2502  @use "components/button", "components/caixa";\d\a    \2502                          ^\a    \2575 \a   sass\\main.scss 12:25  root stylesheet';
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502    color: $cor-preta;\d\a   \2502           ^^^^^^^^^^\a   \2575 \a   sass\\base\\_typography.scss 9:10  @use\a   sass\\main.scss 6:1               root stylesheet";
 }

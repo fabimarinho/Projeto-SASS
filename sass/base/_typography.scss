@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+/** 
+* basic typography styles for copy text
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $cor-preta;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
