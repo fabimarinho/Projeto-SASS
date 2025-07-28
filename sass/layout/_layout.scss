@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
+// This file contains all styles related to layouts.
 // -----------------------------------------------------------------------------
+
+.secao {
+  display: flex;
+  flex-flow: column;
+  padding: 6.1rem 2rem;
+}
+
+.container {
+  display: flex;
+  max-width: 100rem;
+  margin: auto;
+}

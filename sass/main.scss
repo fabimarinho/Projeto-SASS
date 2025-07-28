@@ -1,8 +1,10 @@
 @charset "UTF-8";
+
+// 1. Configuration and helps
+@use "abstracts/helpers";
+
 // 2. Base stuff
 @use "base/base";
-@use "base/fonts";
-@use "base/helpers";
 @use "base/typography";
 
 // 3. Layout-related sections

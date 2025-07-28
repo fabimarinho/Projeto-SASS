@@ -1,5 +1,7 @@
+@use "../abstracts/helpers" as *;
+
 // -----------------------------------------------------------------------------
-// This file contains all application-wide Sass variables.
+// Esse arquivo contém variables, mixins e includes
 // -----------------------------------------------------------------------------
 $cor-preta: #1a1b1f;
 $cor-cinza-claro: #f1f1f1;
